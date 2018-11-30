@@ -1,0 +1,100 @@
+*{
+  box-sizing: border-box;
+}
+html{
+  font-family: "Arial", monospace;
+  text-align: center;
+  background-color: #f8a5c2;
+}
+div {
+  width: 66%;
+  margin: auto;
+  padding: 2%;
+}
+.tag {
+  color: #57606f;
+  font-family: 'Poiret One', cursive;
+  font-size: 2em;
+}
+h1 {
+  font-family: 'Fredoka One', cursive;
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+h2 {
+  font-family: 'Poiret One', cursive;
+  font-size: 2em;
+}
+
+a:visited {
+  color: #f368e0;
+}
+a:hover{
+  font-size: 1.5em;
+}
+
+
+
+.header{
+  background-color: #fff;
+  color: #fd79a8;
+  overflow:hidden;
+}
+.header img {
+  transform: rotate(17deg);
+}
+
+
+
+.intro, .timeline{
+  color:#fff;
+  background-color: #fd79a8;
+
+}
+
+.facts {
+  background-color: #fff;
+  color: #fd79a8;
+  overflow: hidden;
+}
+
+.facts img {
+  float: left;
+}
+ul {
+  list-style-type: none;
+}
+/*timeline line styling*/
+.timeline-container {
+  overflow: hidden;
+  position:relative;
+}
+.timeline-container::before{
+  content: '';
+  width: 8px;
+  height: 100%;
+  background: #fad000;
+  position:absolute;
+  left:30px;
+}
+
+/*timeline boxes*/
+.content{
+  background: #fff; /*#20c4f4*/
+  color: #535c68;
+  padding: 2%;
+  margin: 5% 10%;
+  border-radius: 10px;
+}
+.content h3 {
+  color:#20c4f4;
+  font-family: 'Poiret One', cursive;
+  font-size: 1.8rem;
+}
+
+/*timeline hearts*/
+.fas {
+  color:#e72235;
+  position: absolute;
+  left:18px;
+}
